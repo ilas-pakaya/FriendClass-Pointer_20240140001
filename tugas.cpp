@@ -3,7 +3,6 @@
 using namespace std;
 
 class BelahKetupat; 
-
 class LayangLayang {
 private:
     double d1, d2; 
@@ -34,7 +33,6 @@ public:
         cout << "Keliling Layang-Layang: " << hitungKeliling() << endl;
     }
 
-    // friend function
     friend double kelilingLayang(LayangLayang L);
 };
 
@@ -43,7 +41,6 @@ double kelilingLayang(LayangLayang L) {
 }
 
 
-// =========================
 
 class BelahKetupat {
 private:
@@ -74,8 +71,6 @@ public:
     }
 };
 
-
-// =========================
 
 int main() {
     LayangLayang L;
