@@ -2,12 +2,12 @@
 #include <cmath>
 using namespace std;
 
-class BelahKetupat; // forward declaration
+class BelahKetupat; 
 
 class LayangLayang {
 private:
-    double d1, d2; // diagonal
-    double a, b;   // sisi
+    double d1, d2; 
+    double a, b;  
 
 public:
     void input() {
